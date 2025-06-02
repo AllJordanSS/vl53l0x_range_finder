@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>range_finder</name>
+  <version>0.0.1</version>
+  <description>ROS 2 package for VL53L0X range finder</description>
+  <maintainer email="alljordanschulzdesouza@gmail.com">All Jordan Schulz de Souza</maintainer>
+  <license>Apache License 2.0</license>
+
+  <depend>rclpy</depend>
+  <depend>std_msgs</depend>
+  <exec_depend>adafruit-circuitpython-vl53l0x</exec_depend>
+
+  <test_depend>ament_copyright</test_depend>
+  <test_depend>ament_flake8</test_depend>
+  <test_depend>ament_pep257</test_depend>
+  <test_depend>python3-pytest</test_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

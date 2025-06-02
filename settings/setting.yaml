@@ -1,0 +1,10 @@
+range_finder_node:
+  ros__parameters:
+    min_distance: 50                   # Distância do sensor até o chão. (mm)
+    max_distance: 2000                 # O sensor funcona bem até 2m, acima disso há muito erro de leitura. (mm)
+    offset: -50                        # Offset de leitura (valor não validado ainda) (mm)
+    hole_threshold: 70                 # Limite máximo, acima dele será considerado buraco (mm)
+    check_interval: 0.2                # Frequência de  (s)
+    measurement_timing_budget: 200000  # Tempo de medição em microssegundos(us)
+    signal_rate_limit: 0.1             # Limite mínimo da taxa de sinal (s)
+    debug: False                        # Flag para habilitar/desabilitar logs
